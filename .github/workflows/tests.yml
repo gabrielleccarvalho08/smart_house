@@ -26,4 +26,4 @@ jobs:
 
     - name: Rodar suite de testes com PyTest
       run: |
-        pytest
+        pytest test_app.py

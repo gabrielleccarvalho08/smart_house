@@ -6,7 +6,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from app import app
 from database import salvar_evento
 
-def executar_testes():
+def test_executar_testes():
     print("--- INICIANDO TESTES DO BACKEND ---")
     
     client = app.test_client()
@@ -31,4 +31,4 @@ def executar_testes():
     print("\n--- TODOS OS TESTES PASSERAM COM SUCESSO! ---")
 
 if __name__ == '__main__':
-    executar_testes()
+    test_executar_testes()

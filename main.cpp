@@ -5,7 +5,7 @@ const int PINO_PIR = 13;
 const int PINO_LED = 12;   
 
 // Substitua pela URL exata da sua Vercel
-const char* URL_VERCEL = "https://SEU-PROJETO.vercel.app/api/evento";
+const char* URL_VERCEL = "https://smart-house-lac.vercel.app/api/evento";
 
 int estadoAnteriorPIR = LOW;
 unsigned long ultimoTempoMovimento = 0;
